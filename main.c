@@ -80,10 +80,48 @@ void blockcmp(void)
 
 void datecmp(void)
 {
-	
+	int m1, m2, d1, d2;
+	m1 = time1->tm_mon + 1;
+	m2 = time2->tm_mon + 1;
+	d1 = time1->tm_mday;
+	d2 = time2->tm_mday;
+
+	printf("date compare\n");
+	if (m1 > m2)
+		printf("text2 is early\n\n");
+	else if (m1 < m2)
+		printf("text1 is early\n\n");
+	else
+	{
+		if (d1 > d2)
+			printf("text2 is early\n\n");
+		else if (d1 < d2)
+			printf("text1 is early\n\n");
+		else
+			printf("same date\n\n");
+	}
 }
 
 void timecmp(void)
 {
-	
+	int h1, h2, m1, m2;
+	h1 = time1->tm_hour;
+	h2 = time2->tm_hour;
+	m1 = time1->tm_min;
+	m2 = time2->tm_min;
+
+	printf("time compare\n");
+	if (h1 > h2)
+		printf("text2 is early\n\n");
+	else if (h1 < h2)
+		printf("text1 is early\n\n");
+	else
+	{
+		if (m1 > m2)
+			printf("text2 is early\n\n");
+		else if (m1 < m2)
+			printf("text1 is early\n\n");
+		else
+			printf("same time\n\n");
+	}
 }
