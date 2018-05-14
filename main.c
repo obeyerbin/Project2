@@ -55,7 +55,7 @@ void sizecmp(void)
 
 void blockcmp(void)
 {
-	
+
 }
 
 void datecmp(void)
