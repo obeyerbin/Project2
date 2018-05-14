@@ -1,2 +1,12 @@
-# Project2
-SE project2 at KwangWoon Univ.
+#Project2
+-----------
+팀장    
+2012722099 이태빈(obeyerbin)    
+팀원    
+2012722034 김주형(KIMJUHYEOUNG)    
+2012722095 박수빈(kgnma123)    
+역할 분담    
+파일 정보, 시간 정보 받아 오기: 박수빈    
+파일 사이즈, 블록 비교 하기: 김주형    
+파일 수정 날짜, 시간 비교 하기: 이태빈    
+readme작성, wiki작성: 이태빈, 김주형, 박수빈    
