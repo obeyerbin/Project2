@@ -18,7 +18,14 @@ void timecmp(void);
 
 int main(void)
 {
-
+	filestat1();
+	filestat2();
+	filetime1();
+	filetime2();
+	sizecmp();
+	blockcmp();
+	datecmp();
+	timecmp();
 }
 
 void filestat1(void)
